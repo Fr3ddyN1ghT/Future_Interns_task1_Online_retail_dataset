@@ -1,0 +1,17 @@
+[project]
+name = "future-interns-task1-online-retail-dataset"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "kagglehub>=1.0.3",
+    "numpy>=2.5.4",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.0",
+    "plotly>=7.1.0",
+    "streamlit>=1.66.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
